@@ -1,23 +1,23 @@
-#include <bits/stdc++.h> 
-void insertionSort(int n, vector<int> &arr){
-    for(int i=1;i<n;i++){
-        int temp = arr[i];
-        int j=i-1;
+// #include<iostream>
+// void insertionSort(int n, vector<int> &arr){
+//     for(int i=1;i<n;i++){
+//         int temp = arr[i];
+//         int j=i-1;
 
-        for(;j>=0;j--){
+//         for(;j>=0;j--){
 
-            if(arr[j]>temp){
-                //shift
-                arr[j+1]=arr[j];
+//             if(arr[j]>temp){
+//                 //shift
+//                 arr[j+1]=arr[j];
                 
-            }
-            else{
-                //breal
-                break;
-            }
+//             }
+//             else{
+//                 //breal
+//                 break;
+//             }
             
-        }
-        //place element
-        arr[j+1]=temp;
-    }
-}
+//         }
+//         //place element
+//         arr[j+1]=temp;
+//     }
+// }
